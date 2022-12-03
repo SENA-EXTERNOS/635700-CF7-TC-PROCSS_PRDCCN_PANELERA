@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# Protocolo de empaques **sena-base-2021 v6.2.1**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/635700-CF7-TC-PRCSS_PRDCCN_PANELERA/](https://sena-externos.github.io/635700-CF7-TC-PRCSS_PRDCCN_PANELERA/)
 
 #
 
