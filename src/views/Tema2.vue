@@ -50,7 +50,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p Los trapiches o microempresas productoras de la panela, deben tener condiciones óptimas para la manipulación en los diferentes aspectos, dado a la exigencia de las normas que son de obligatorio cumplimiento y son exigidas para garantizar la fabricación de productos inocuos para el cliente y de este modo se puedan consumir sin presentar ningún tipo de riesgo a la salud. El cumplimiento de las buenas prácticas de manufactura, beneficia las actividades de los operarios y trabajadores de este sector, logrando una producción segura, minimizando la contingencia de artículos defectuosos tanto en composición y apariencia. 
-        p Las condiciones normativas además de prologar la calidad del alimento, también permite la reducción de amenaza microbiológica y control de plagas, según lo ordenado en el decreto 1500 del 2007 <b>“todo procedimiento que un establecimiento lleva a cabo diariamente, antes y durante las operaciones para prevenir la contaminación directa del alimento”. </b>
+        p Las condiciones normativas además de prologar la calidad del alimento, también permite la reducción de amenaza microbiológica y control de plagas, según lo ordenado en el decreto 1500 del 2007 “todo procedimiento que un establecimiento lleva a cabo diariamente, antes y durante las operaciones para prevenir la contaminación directa del alimento”. 
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img-3.png')  
@@ -249,7 +249,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img-20.png')
 
-    p.mb-5 Es definida como aquella que es contraída a causa de la suma de exposiciones a factores de riesgo inherentes a la actividad laboral o medio de trabajo en el que se desempeña (Aristizábal, 2013). 
+    p.mb-5 A continuación, se enuncian algunos riesgos que se pueden detectar en los trapiches paneleros: 
 
 
 
@@ -317,7 +317,7 @@
               i.fas.fa-angle-right
               | Tapabocas.   
           <br>
-          p Para prevenir los riesgos anteriores el trabajador puede usar los siguientes elementos:  Para prevenir los riesgos anteriores el trabajador puede usar los siguientes elementos:  
+          p En las instalaciones se debe realizar:
           ul.lista-ul--color.narr
             li.mb-0 
               i.fas.fa-angle-right
@@ -349,7 +349,7 @@
                   th.text-center Efectos en la salud 
               tbody
                 tr
-                  td.text-center(rowspan='2') Ruido
+                  td.text-center(rowspan='2') Contaminación con agroquímicos y productos pecuarios
 
                   td.text-center Herbicidas 
                     | Plaguicidas<br> 

@@ -3,8 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p En este organizador grafico podrá encontrar la información sintetizada de la fabricación panelera y la cadena de producción y distribución que se compone por seis eslabones en los que intervienen proveedores de insumos, productores, comercializadores mayoristas - minoristas y clientes finales. Dada la numerosa cantidad de intermediarios que existen, es posible que el sector presente restricciones a la libre competencia como se expone más adelante (Cadavid, 2007).
 
     .row.justify-content-center
       .col-lg-10.mb-5

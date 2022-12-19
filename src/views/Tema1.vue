@@ -76,12 +76,12 @@
 
 
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4.mb-5.fnd-5
       PasosB.color-acento-botones
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             p Para convertir la miel a panela se deben efectuar los siguientes pasos: 
-            p <b>Moldeo: </b>durante esta etapa se determina la forma del alimento para ello se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
+            p <em>Moldeo: </em>durante esta etapa se determina la forma del alimento para ello se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-8.png') 
@@ -98,7 +98,7 @@
               img(src='@/assets/curso/temas/tema1/img-9.svg') 
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
-            p <b>Enfriamiento:</b> Al terminar el proceso de moldeo se da paso al enfriamiento con el fin de llevar el comestible a la temperatura ambiente, debe hacerse en lugares con buena ventilación garantizando una buena higiene y salubridad para el producto terminado. 
+            p <em>Enfriamiento:</em> Al terminar el proceso de moldeo se da paso al enfriamiento con el fin de llevar el comestible a la temperatura ambiente, debe hacerse en lugares con buena ventilación garantizando una buena higiene y salubridad para el producto terminado. 
           .col-md-6
             .titulo-sexto.color-acento-contenido
               p.mb-0 

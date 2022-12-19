@@ -15,7 +15,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/img-intro.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p Apreciado aprendiz, bienvenido a este componente formativo donde podrá actualizar sus conocimientos sobre el sistema de gestión, con la inclusión de material relacionado con los requerimientos para el diseño e implementación de un sistema de gestión en una organización determinada; a través de los contenidos disponibles, se pueden identificar los componentes del ciclo PHVA (Planear, Hacer, Verificar, Actuar), así como, también, elementos y herramientas necesarios para la implementación efectiva de un sistema de gestión, garantizando la pertinencia del mismo, de acuerdo con las características y necesidades de la organización.
+            p Apreciado aprendiz, sea bienvenido a este momento de estudio orientado a desarrollar protocolos de empaque. En el próximo video se describen algunas generalidades de las envolturas, la conservación, los riesgos de contaminación y la normatividad. Aplicando todo el conocimiento a criterios propios de desempeño en diferentes campos tanto en el sector académico, investigativo y productivo.
+            br
+            br
+            p <b>¡Muchos éxitos en este proceso de aprendizaje!</b>
 
     
     figure.mb-5
