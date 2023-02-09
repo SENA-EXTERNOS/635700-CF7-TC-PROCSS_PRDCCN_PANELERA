@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Protocolo de empaques',
     descripcionCurso:
-      'El objetivo de los procesos industriales es aumentar la producción de insumos donde los niveles del producto presenten alta calidad, todo esto es posible cumpliendo a cabalidad la normatividad donde se controlan las variables. La fabricación de panela no es ajena a lo descrito, debido a la precaución que se realiza durante el la elaboración, especialmente en las fases de moldeado y empacado, que deben efectuarse bajo los estándares de calidad. ',
+      'El objetivo de los procesos industriales, es el de aumentar la producción de insumos y lograr que los niveles del producto presenten alta calidad. Todo esto es posible cumpliendo a cabalidad la normatividad, donde se controlan las variables. La fabricación de panela no es ajena a lo descrito y se deberán tener, entonces, las precauciones justas y suficientes en su elaboración, especialmente en las fases de moldeado y empacado, que deben efectuarse bajo los estándares de calidad. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal-.png'),
     imagenesDecorativasBanner: [
@@ -131,48 +131,58 @@ export default {
   referencias: [
     {
       referencia:
-        'Andrés, R. (2013), <em>Modelamiento de un sistema de evaporación de múltiple efecto, </em>17(35), 47–54.',
+        'Ordoñez, R. (2013). Modelamiento de un sistema de evaporación de múltiple efecto. <em>Revista Tecnura</em>, 17(35), p. 47. ',
+      link:
+        'https://go.gale.com/ps/i.do?id=GALE%7CA327815835&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=0123921X&p=IFME&sw=w&userGroupName=anon%7E9c967f6b ',
     },
     {
       referencia:
-        'Aristizábal Gómez, J.C. (2013),<em> La enfermedad laboral en Colombia,</em> Fasecolda, ',
+        'Aristizábal, J. (2013). <em>La enfermedad laboral en Colombia.</em> ',
       link:
         'https://fasecolda.com/cms/wp-content/uploads/2019/08/enfermedad-laboral-colombia-2013.pdf',
     },
     {
       referencia:
-        'Cundinamarca, G. de. (2016),<em> cartilla salud laboral.</em>',
+        'Ramírez, K. & Rojas, C. (2017). <em>Cartilla normas de seguridad y salud en el trabajo.</em> ',
+      link:
+        'https://repository.udistrital.edu.co/bitstream/handle/11349/6128/RamirezKarenRojasCarolina2017Anexo3.pdf;jsessionid=6FA19BC50DF067E6E82F12954E08FC81?sequence=14 ',
     },
     {
       referencia:
-        'Fiestas Farfán, K. et al. (2015), <em>Diseño de una línea de producción de panela granulada,</em> repositorio Institucional PIRHUA, ',
+        'Fiestas, K. (2015). <em>Diseño de una línea de producción de panela granulada.</em> ',
       link:
         'https://www.coursehero.com/file/56716491/diseno-de-una-linea-de-produccion-de-panela-granuladapdf/',
     },
     {
       referencia:
-        'Gallego Valderrama, A et al, (2020), <em>Criterios de implementación ISO 22000: 2018 / ISO 9001: 2015 caso estudio sector lácteo,</em> ',
+        'Gallego, A. (2020). <em>Criterios de implementación ISO 22000: 2018 / ISO 9001: 2015 caso estudio sector lácteo.</em> ',
       link:
         'https://repository.unad.edu.co/bitstream/handle/10596/37730/garodriguezn.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social (2019), <em>Dirección de regulación de la operación del aseguramiento en salud, riesgos laborales y pensiones</em>, aseguramiento en riesgos laborales.',
+        'Centro Latinoamericano para el Desarrollo Rural (2005), <em>Producción y comercialización de panela: La experiencia de la Asociación Cooperativa de Paneleros de el Salvador (Acopanela).</em> ',
+      link:
+        'https://www.rimisp.org/wp-content/files_mf/1365015776caso6acopanela1.pdf ',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social (2019). <em>Dirección de regulación de la operación del aseguramiento en salud, riesgos laborales y pensiones.</em> MINSALUD.',
       link: 'https://is.gd/p2ngwX',
     },
     {
       referencia:
-        'Sánchez Farfán, L. A. et al. (2021),<em> Gestión integral de los elementos de protección personal (EPP),</em> Ministerio de Salud y Protección Social,',
+        'Sánchez, L. (2021). <em>Gestión integral de los elementos de protección personal (EPP).</em> ',
       link:
-        'https://www.minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/GTHS02.pdf',
+        'https://www.minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/GTHS02.pdf ',
     },
     {
-      referencia: 'Sánchez, F. D, (2001),<em>El agua,</em> IDEAM,',
+      referencia: 'Sánchez, F. (2001). <em>El agua.</em> IDEAM',
       link: 'http://hdl.handle.net/20.500.12324/18771',
     },
     {
       referencia:
-        'Tejeda Martínez, A., Méndez. Et al, (2018),<em> La humedad en la atmósfera: Bases físicas, instrumentos y aplicaciones.</em> Universidad de Colima,',
+        'Tejeda, A. (2018. <em>La humedad en la atmósfera: Bases físicas, instrumentos y aplicaciones.</em> ',
       link:
         'http://ww.ucol.mx/content/publicacionesenlinea/adjuntos/La-humedad-en-la-atmosfera_466.pdf ',
     },
@@ -231,30 +241,30 @@ export default {
   ],
   complementario: [
     {
-      tema: 'Proceso de elaboración de la panela',
+      tema: 'Batido',
       referencia:
-        'Coco Loco TV, (2019), <em>Panela Cómo se hace la panela, proceso de elaboración de la panela.</em> [video] YouTube. ',
+        'Coco Loco TV. (2019). <em>Panela Cómo se hace la panela, proceso de elaboración de la panela</em> [video] YouTube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=hAXZC8y3fpg',
     },
     {
-      tema: 'Como hacer panela - paso a paso',
+      tema: 'Batido',
       referencia:
-        'El ProductorTV (2021), <em>Como hacer panela - paso a paso.<em> [video], YouTube. ',
+        'El ProductorTV. (2021). <em>Como hacer panela - paso a paso</em> [video] YouTube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=ipJp_2EHeEg',
     },
     {
-      tema: 'Proceso de elaboración de la panela - en Naranjal',
+      tema: 'Adecuación del producto',
       referencia:
-        'Naranjal Tv, (2020),<em> Proceso de Elaboración de la Panela- en Naranjal.</em> [video],YouTube. ',
+        'Naranjal Tv. (2020). <em>Proceso de Elaboración de la Panela- en Naranjal</em> [video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=PtCLI7AGGrg',
     },
     {
-      tema: 'Cómo se fabrica panela en un trapiche',
+      tema: 'Adecuación del producto',
       referencia:
-        'TvAgro, (2015), <em>Cómo se fabrica panela en un trapiche- TvAgro por Juan Gonzalo Ángel. </em>[video], YouTube.  ',
+        'TvAgro. (2015). <em>Cómo se fabrica panela en un trapiche- TvAgro por Juan Gonzalo Ángel</em> [video] YouTube.   ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=H1iEHhdPRk0',
     },

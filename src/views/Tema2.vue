@@ -11,9 +11,14 @@
     .row.justify-content-center.mb-5 
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema2/img-1.png')    
+          img(src='@/assets/curso/temas/tema2/c1.png')    
       .col-lg-7 
-        p.mb-5 Existen en el mercado diversos materiales de almacenamiento ideales para empacar la panela, las características de estos son plásticos termo encogibles, transparentes y resistentes, que permiten sellar al vacío, también están las láminas de aluminio plastificado de larga duración que preserva por tiempos prolongados el producto, evitando la modificación del mismo, sin alterar las propiedades organolépticas. La panela de estructura en bloque se puede envasar en sacos, cajas de cartón y empaques plásticos moldeables. Para evitar la absorción de humedad se sugiere conservar en cartón, dado que aísla de manera efectiva el producto de las condiciones adversas ambientales y además es un material reciclable. Cuando el alimento viene pulverizado debe empacarse en bolsas de polipropileno biorientado. Lo anterior debe ser considerado dado que la panela es un producto con propiedades que varían con la temperatura y la humedad, es decir cualidades higroscópicas, lo que significa que tiene la capacidad de absorber o perder humedad por exposición al entorno.  
+        p.mb-5 En el mercado, existen diversos materiales de almacenamiento, ideales para empacar la panela. Suelen ser plásticos termoencogibles, transparentes y resistentes, que permiten sellar al vacío; también están las láminas de aluminio plastificado, de larga duración, que preservan por tiempos prolongados el producto, evitando la modificación del mismo, sin alterar las propiedades organolépticas. 
+          br
+          br
+          |La panela de estructura en bloque, se puede envasar en sacos, cajas de cartón y empaques plásticos moldeables. Para evitar la absorción de humedad, se sugiere conservar en cartón, dado que aísla de manera efectiva, el producto, de las condiciones adversas ambientales y, además, es un material reciclable.
+          .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ecf3dd")
+            p.mb-0 Cuando el alimento viene pulverizado, debe empacarse en bolsas de polipropileno biorientado. Lo anterior debe ser considerado, dado que la panela es un producto con propiedades que varían con la temperatura y la humedad, es decir, tiene cualidades higroscópicas, lo que significa que tiene la capacidad de absorber o perder humedad por exposición al entorno.
     
     p.mb-5 Para garantizar la inocuidad y la vida útil de la panela se hacen las siguientes recomendaciones:  
 
@@ -41,11 +46,10 @@
 
     br
     br
-    ul.lista-ul--color.narr
-      li 
-        i.fas.fa-square
-        | 
-        h3.text-black Manejo de plagas
+    ul.lista-ul--color
+      li
+        i.fas.fa-leaf(style="color: #e2872c")
+        h4 Manejo de plagas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -59,12 +63,13 @@
       .col-lg-10
         .cajon.color-acento-botones.fnd-6.p-4.mb-4
           p La panela es considerada como un endulzante artesanal, proveniente de la caña de azúcar (Saccharum ofcinarum), este es transformado en trapiches como una actividad económica, la cual debe tener el cumplimiento de los requisitos sanitarios para la elaboración y el cumplimento de acuerdo con las condiciones que exigen en materia de infraestructura (las instalaciones, áreas de procesos y sanitarias). Esto es cobijado ante resoluciones del Ministerio de la Protección Social como la ley 4121 del 2011 “requisitos para la producción y comercialización de la panela en el territorio nacional”, (Gallego, 2020). 
-    separador 
-    .titulo-segundo.color-acento-contenido
-      h2 2.1  Riesgos de contaminación de los productos (biológica, química y física). 
-    p En el siguiente enunciado se relacionan algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero:  
+    ul.lista-ul--color
+      li
+        i.fas.fa-leaf(style="color: #e2872c")
+        h4 Riesgos de contaminación de los productos (biológica, química y física). 
+    p Algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero, son:  
 
-    SlyderF.mb-5.row(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5.row(columnas="col-lg-6 col-xl-4").slyder-100
       .tarjeta.fnd-51.tarjeta-avatar1
         .row.justify-content-center.mb-3
           .col-8
@@ -91,9 +96,10 @@
             img.img-150.img-t(src='@/assets/curso/temas/tema2/img-8.svg' alt='AvatarTop')
         p.text-center.px-4 Es de acotar que la humedad no sólo afecta este artículo, dado que cuando la panela tiene azucares reductores en alta densidad y contenidos mínimos de sacarosa también puede presentar alteraciones. 	
 
-    separador 
-    .titulo-segundo.color-acento-contenido
-      h2 2.2  Agua
+    ul.lista-ul--color
+      li
+        i.fas.fa-leaf(style="color: #e2872c")
+        h4  Agua
 
     .row.justify-content-center.mb-5 
         .col-lg-10
@@ -107,7 +113,7 @@
               <br>
               p Es una sustancia que se compone por dos átomos de hidrógeno y un átomo de oxígeno (H2O) se encuentra en estado sólido (hielo), gaseoso (vapor) y líquido, las propiedades físicas y químicas del agua son indispensables para la supervivencia de los ecosistemas, (Sánchez, 2021).      
 
-    p.mb-5 A continuación, se presenta el uso del agua en los procesos paneleros: 
+    p.mb-5 A continuación, se presentan algunas recomendaciones y problemáticas del uso del agua en los procesos de producción de panela:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-4-")
@@ -142,48 +148,24 @@
                     i.fas.fa-link    
 
 
-    separador 
-    .titulo-segundo.color-acento-contenido
-      h2 2.3  Normativa de salud y seguridad en el trabajo
+    ul.lista-ul--color
+      li
+        i.fas.fa-leaf(style="color: #e2872c")
+        h4  Normativa de salud y seguridad en el trabajo
+    p.mb-5(data-aos='fade-right') El sector de producción de panela, como cualquier otro sector productivo, debe establecer acciones que aseguren la gestión de la salud y la seguridad en el trabajo. Como es de suponer, es la normativa vigente la que regula y orienta tales procesos y ofrece mecanismos de aplicación.
+      br
+      br
+      |Profundice en los aspectos clave de la normativa de salud y seguridad en el trabajo del sector panelero, que se exponen en el siguiente video:
 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
 
+
+
+    p.mb-5(data-aos='fade-right') Conozca y asimile algunos conceptos y términos relacionados con la normativa de salud y seguridad en el trabajo. Estos, le favorecerán su apropiación de acciones aplicables en dicha gestión:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.color-secundario.p-3.mb-5.px-5.fnd-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema2/img-12.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.text-small Para comprender todo lo relacionado con los entornos saludables y seguros en la producción panelera frente a la COVID-19, por favor dar clic al siguiente enlace.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="('https://youtu.be/sQrrMIaezOw')" target="_blank")
-                    span Enlace
-                    i.fas.fa-link    
-
-
-    .row.justify-content-center.align-items-start.mb-5
-      .col-md-2
-        figure.mb-4
-          img.img-190(src='@/assets/curso/temas/tema2/img-13.svg')
-      .col-md-10
-        p.mb-5 <b>El Artículo 1°.</b> Objeto. La resolución titulada en la presente, tiene por objetivo instituir los reglamentos técnicos de requerimientos sanitarios con los que deben contar los establecimientos de producción panelera, además de las centrales de acopio de mieles procedentes de los trapiches donde se procesen, envasen, transporten, expendan, importen, exporten y comercialicen la panela la cual será requerida para el consumo, buscando preservar la salud y la integridad del individuo que hace uso del producto, todo esto con el fin de proteger la salud y la seguridad humana.(Male, 2006) 
-
-
-    ul.lista-ul--color.narr
-      li 
-        i.fas.fa-square
-        | 
-        h3.text-black Resolución número 3462 de 2008-Ministerio de la Protección Social 
-    p.mb-5 En ejercicio de sus atribuciones legales, especialmente las conferidas por las Leyes 9ª de 1979, 40 de 1990, Decretos: 3075 de 1997 y el numeral 15 del artículo 2º del Decreto 205 de 2003. 
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.fnd-1.tarjeta.p-5
+      .col-lg-12.fnd-1.tarjeta.p-5(style="background-color: #ecfffc ")
         SlyderA(tipo='b')
           .row
             .col-md-8.mb-4.mb-md-0.px-5
@@ -248,8 +230,17 @@
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema2/img-20.png')
-
-    p.mb-5 A continuación, se enuncian algunos riesgos que se pueden detectar en los trapiches paneleros: 
+    ul.lista-ul--color
+      li
+        i.fas.fa-leaf(style="color: #e2872c")
+        h4 Riesgos laborales 
+    .row.justify-content-center.mb-5
+      .col-lg-2: img(src='@/assets/curso/temas/tema2/c2.svg', alt='')
+      .col-lg-10 
+        p También denominados riesgos ocupacionales, trata de aquellas posibilidades de sufrir alguna afectación de orden físico, psicológico, emocional y de salud en general, que se experimentan en el entorno de trabajo, o en actividades directamente relacionadas con el mismo.
+          br
+          br
+          |A continuación, se enuncian algunos riesgos que se pueden detectar en los trapiches paneleros: 
 
 
 
@@ -527,25 +518,11 @@
 
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.color-secundario.p-3.mb-5.px-5.fnd-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/img-11.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.text-small  Con el objetivo de crear medidas para la protección, fomento y fortalecimiento de la producción artesanal de panela y promover el cumplimiento de los derechos laborales, la Federación Nacional de Productores de Panela “Fedepanela”, presentó una propuesta de ley en pro de dicho sector. Para conocer más acerca de esta iniciativa darle clic al siguiente enlace.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="('https://youtu.be/8ijJvd4h750,Fedepanela')" target="_blank")
-                    span Enlace
-                    i.fas.fa-link    
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.fnd-6.p-4.mb-4
-          p <b>¡Felicitaciones!</b> Ha finalizado el estudio de este componente formativo a través del cual ha aprendido sobre los protocolos de empaques, normativa de salud y seguridad en el trabajo y manejo de los recursos naturales. Ahora le invitamos a estudiar la síntesis donde podrá recordar de forma general los saberes que se han desarrollado, y posteriormente a realizar la actividad de aprendizaje donde permitirá colocar a prueba lo aprendido, consultar el material complementario le servirá de refuerzo y profundización, ¡recuerde estudiar el glosario! 
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

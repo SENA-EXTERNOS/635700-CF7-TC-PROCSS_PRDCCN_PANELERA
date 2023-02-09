@@ -15,10 +15,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/img-intro.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p Apreciado aprendiz, sea bienvenido a este momento de estudio orientado a desarrollar protocolos de empaque. En el próximo video se describen algunas generalidades de las envolturas, la conservación, los riesgos de contaminación y la normatividad. Aplicando todo el conocimiento a criterios propios de desempeño en diferentes campos tanto en el sector académico, investigativo y productivo.
-            br
-            br
-            p <b>¡Muchos éxitos en este proceso de aprendizaje!</b>
+            p Apreciado aprendiz, bienvenido a este componente formativo, donde se podrá apropiar de los conceptos y acciones inherentes al protocolo de empaque en la producción panelera. Afiance sus saberes y habilidades en todo lo relacionado con envolturas, conservación, contaminación y riesgos, normatividad, entre otras.
+              br
+              br
+              |Adquiera más y mejores conocimientos que podrá aplicar en diferentes campos como el sector académico, productivo e investigativo.
 
     
     figure.mb-5
