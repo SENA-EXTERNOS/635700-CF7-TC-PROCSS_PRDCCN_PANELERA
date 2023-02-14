@@ -10,12 +10,12 @@
 
     .row.justify-content-center.mb-5 
         .col-lg-10
-          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p Antes de llevar a cabo el batido, se busca obtener el punto de la miel; se trata de aquel punto que sea apto para lograr convertirla en panela. Esta técnica se denomina punteo y está determinada por una temperatura específica donde se consiguen las características de consistencia, color y densidad, requeridas en la miel, para la producción del alimento. Esta temperatura de punteo se encuentra en un rango de 120 oC a 130 oC.
+              p Antes de llevar a cabo el batido, se busca obtener el punto de la miel; se trata de aquel punto que sea apto para lograr convertirla en panela. Esta técnica se denomina punteo y está determinada por una temperatura específica donde se consiguen las características de consistencia, color y densidad, requeridas en la miel, para la producción del alimento. Esta temperatura de punteo se encuentra en un rango de 120 °C a 130 °C.
     
     p.mb-5 Estos son algunos aspectos importantes y/o pasos para realizar el proceso de punteo:  
 
@@ -73,37 +73,28 @@
 
 
 
+    p.mb-5(data-aos='fade-right') Para convertir la miel a panela se deben efectuar los siguientes pasos: 
     .tarjeta.tarjeta.p-4.mb-5(style="background-color: #ecfffc ")
       PasosB.color-acento-botones
         .row(titulo="Paso 1").px-5
           .col-md-6.mb-4.mb-md-0
             h4 Moldeo
-            p Para convertir la miel a panela se deben efectuar los siguientes pasos: 
-            p <em>Moldeo: </em>durante esta etapa se determina la forma del alimento para ello se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
+            p Durante esta etapa se determina la forma del alimento para ello se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/c6.png') 
         .row(titulo="Paso 2").px-5
           .col-md-6.mb-4.mb-md-0
-            h4 Enfriamiento
+            h4 Tiempo de moldeo
             p Este evento debe llevarse a cabo en un tiempo récord, bajando al máximo la manipulación del producto, debido al cambio de densidad de las melazas al reducir la temperatura. Al trascurrir un determinado tiempo, se pasa al desmolde con el objetivo de que termine el proceso de enfriamiento fuera de la gavera, para evitar resquebrajamientos o fisuras al momento de realizar dicho proceso. Al finalizar el batido, la panela toma el color, la textura, la densidad y la dureza requerida.
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 
-                b Figura 3.   
-                | Descripción de las actividades de moldeo 
-
             figure
               img(src='@/assets/curso/temas/tema1/c7.svg') 
         .row(titulo="Paso 3").px-5
           .col-md-6.mb-4.mb-md-0
             h4 Tiempo del moldeo
-            p <em>Enfriamiento:</em> Al terminar el proceso de moldeo se da paso al enfriamiento con el fin de llevar el comestible a la temperatura ambiente, debe hacerse en lugares con buena ventilación garantizando una buena higiene y salubridad para el producto terminado. 
+            p Al terminar el proceso de moldeo se da paso al enfriamiento con el fin de llevar el comestible a la temperatura ambiente, debe hacerse en lugares con buena ventilación garantizando una buena higiene y salubridad para el producto terminado. 
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 
-                b Figura 4.   
-                | Actividades del proceso de enfriamiento          
             figure
               img(src='@/assets/curso/temas/tema1/c8.svg')  
         
@@ -117,7 +108,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small Para ahondar en todo lo referente a las propiedades de la panela y los beneficios para la salud, se recomienda hacer clic en el siguiente video.
+                  p Para ahondar en todo lo referente a las propiedades de la panela y los beneficios para la salud, se recomienda hacer clic en el siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=yi866Z1roq8 ')" target="_blank")
                     span Enlace
@@ -214,6 +205,69 @@
                 li.mb-0 
                   i.fas.fa-circle.text-small
                   | Humedad relativa del ambiente.
+    p.mb-5(data-aos='fade-right') Las siguientes recomendaciones son esenciales para preservar la vida útil de la panela. 
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/cc.png', alt='')
+      .col-lg-8 
+        .tarjeta.bg-lista.p-5
+          PasosB.color-acento-botones
+            div(titulo="")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Cada sitio del trapiche debe tener una entrada de aire para ventilar toda el área, al igual que el ingreso de luz para iluminar cada zona, estos aspectos son claves para conservar el producto óptimo y velar por la integridad de los trabajadores.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Garantizar el bienestar de los operarios.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Usar anjeos en la construcción.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Mejorar las condiciones sanitarias de cada fase del trapiche.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Propender por el aseo, salubridad y el orden de lugar de acopio.
+            div(titulo="")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Reducir y evitar la entrada de animales, especialmente de insectos y personas ajenas a la etapa, disminuyendo las posibilidades de contaminación cruzada del producto y evitar la pérdida del mismo.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Mejorar la calidad de la panela.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Los elementos tóxicos contaminantes están prohibidos en los sitios de almacenamiento.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Evitar el uso de insecticidas, puede ser perjudiciales para la salud.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | La mano de obra calificada debe acatar las actividades propuestas para ellos.
+            div(titulo="")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Lavar los equipos y materiales mínimo cada cuatro horas.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Los trabajadores del trapiche deben cumplir con las normas higiénicas.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | Capacitación constante para los operarios.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | No almacenar mieles del ingenio en el espacio de depósito.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | No guardar melazas de otros trapiches en el sitio de acopio.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | No tener azúcares o edulcorantes en la bodega donde está el producto final.
+                li
+                  i.fas.fa-angle-right(style='color: #e2872c')
+                  | No archivar blanqueadores y colorantes en el lugar de almacenamiento.
 
 
 
@@ -240,4 +294,12 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-lista
+  background-image: url(../assets/curso/bg-lista.svg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+.pasos-b__header__btn--right, .pasos-b__header__btn--left
+  background-color: #e2872c !important
+</style>

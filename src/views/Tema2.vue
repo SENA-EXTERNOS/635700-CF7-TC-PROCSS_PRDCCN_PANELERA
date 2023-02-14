@@ -66,7 +66,7 @@
     ul.lista-ul--color
       li
         i.fas.fa-leaf(style="color: #e2872c")
-        h4 Riesgos de contaminación de los productos (biológica, química y física). 
+        h4 Riesgos biológicos, químicos y físicos, de contaminación
     p Algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero, son:  
 
     SlyderF.mb-5.row(columnas="col-lg-6 col-xl-4").slyder-100
@@ -99,7 +99,7 @@
     ul.lista-ul--color
       li
         i.fas.fa-leaf(style="color: #e2872c")
-        h4  Agua
+        h4  Agua en los procesos paneleros
 
     .row.justify-content-center.mb-5 
         .col-lg-10
@@ -116,16 +116,16 @@
     p.mb-5 A continuación, se presentan algunas recomendaciones y problemáticas del uso del agua en los procesos de producción de panela:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-4-")
-          .row(titulo="Uso 1")
+        AcordionA.color-acento-contenido.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Evacuación de desechos por agua")
             p Para este aspecto se debe tener presente el mandato técnico para la producción, dado que en la mayoría de las veces se convierte en una dificultad para la sociedad, ya que afecta no solo al gremio, sino también a la comunidad en general, pues no se evacua correctamente los desechos ocasionados por el uso del agua en los trapiches. 
-          .row(titulo="Uso 2")
+          .row(titulo="Higienización de ambientes y equipos")
             p Todo esto converge en la utilización recurso hídrico, cabe resaltar que para los procesos paneleros se requiere agua potable y en cantidades abundantes, al igual que para el lavado constante de los equipos, entre otras etapas de fabricación.  
-          .row(titulo="Uso 3")
+          .row(titulo="Riegos e hidratación de cultivos")
             p No se puede descuidar la eliminación de los residuos que se generan al momento de la elaboración, pues la mayoría de los sedimentos terminan en las quebradas, charcos o lagos cercanos, desconociendo que se requiere para hidratar los cultivos de caña durante el tiempo de siembra y riego constante en la cosecha. 
-          .row(titulo="Uso 4")
+          .row(titulo="Pérdida de afluentes naturales y deterioro de ecosistemas")
             p Los problemas ocasionados por la deforestación, especialmente en lugares donde nacen los ríos, ha ocasionado el deterioro no solo de los ecosistemas, también acarrea problemas para los que deben recurrir a aguas lluvia, dado que las quebradas, ríos o riachuelos cada vez son más escasos. 
-          .row(titulo="Uso 5")
+          .row(titulo="Protección del ambiente y acciones sostenibles")
             p La industria panelera debe velar por el cuidado ambiental, contando con acciones que velen por el cuidado del agua, donde los ríos sigan su curso y los lagos o lagunas permanezcan libres de sedimentos paneleros y preserven el caudal y cantidad, también se debe evitar la deforestación de zonas próximas a los trapiches. La concientización de la población debe ser constante a través de actividades permanentes sobre la protección de la naturaleza, especialmente los recursos hídricos, dado las consecuencias que trae para los procesos de tecnificación, además de multas económicas.
 
       .col-lg-4
@@ -141,7 +141,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small  Se recomienda hacer clic en el siguiente enlace para complementar los saberes relacionados con el manejo ambiental en los trapiches paneleros.
+                  p.mb-0  Se recomienda hacer clic en el siguiente enlace para complementar los saberes relacionados con el manejo ambiental en los trapiches paneleros.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=ZpT5MWCAD9I')" target="_blank")
                     span Enlace
@@ -244,14 +244,10 @@
 
 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-4-")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Riesgos físicos")
         .col-lg-8
           p.mb-5  Determinados como aquellos factores ambientales, de naturaleza física que pueden provocar efectos negativos en la salud, causados por ruido, vibraciones, iluminación y temperaturas altas de acuerdo con la intensidad o el tiempo de exposición. En el siguiente cuadro se describen los que se generan en los trapiches paneleros: 
-          .titulo-sexto.color-secundario
-            p.mb-0 
-              b Tabla 1.   
-              | Riegos en trapiches  
 
           .tabla-a.color-secundario.mb-5 
             table.fnd-4-
@@ -279,7 +275,7 @@
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-21.svg')
-      .row(titulo="Prevenir los riesgos físicos  ")
+      .row(titulo="¿Cómo prevenir los riesgos físicos?")
         .col-lg-8
           p Para prevenir los riesgos anteriores el trabajador puede usar los siguientes elementos:  
           ul.lista-ul--color.narr
@@ -326,10 +322,6 @@
         .col-lg-8
           p.mb-5 Son todos aquellos elementos y sustancias que, al entrar en contacto con el trabajador, bien sea por inhalación, absorción o ingestión, causado por gases, vapores y humos que puedan provocar intoxicación y quemaduras, según el nivel de concentración y el tiempo de exposición. 
 
-          .titulo-sexto.color-secundario
-            p.mb-0 
-              b Tabla 2.   
-              | Peligros químicos   
 
           .tabla-a.color-secundario.mb-5 
             table.fnd-4-
@@ -362,7 +354,7 @@
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-23.svg')
-      .row(titulo="Prevenir los peligros químicos ")
+      .row(titulo="¿Cómo prevenir riesgos químicos?")
         .col-lg-8
           p Para prevenir los riesgos anteriores el trabajador puede seguir las recomendaciones que se disponen a continuación:
           ul.lista-ul--color.narr
@@ -415,14 +407,10 @@
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-24.svg')
-      .row(titulo="Peligros biológico")
+      .row(titulo="Peligros biológicos")
         .col-lg-8
           p.mb-5 Es la presencia o exposición de agentes vivos como animales, vegetales y microorganismos capaces de originar una amenaza a la salud humana, causando cualquier tipo de infección, o provocando algún tipo de alergia o toxicidad. 
 
-          .titulo-sexto.color-secundario
-            p.mb-0 
-              b Tabla 3.   
-              | Peligros biológicos   
 
           .tabla-a.color-secundario.mb-5 
             table.fnd-4-
@@ -445,7 +433,7 @@
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-25.svg')
-      .row(titulo="Prevenir los peligros biológicos  ")
+      .row(titulo="¿Cómo prevenir riesgos biológicos?")
         .col-lg-8
           p Para prevenir los riesgos anteriores el trabajador puede:  
           ul.lista-ul--color.narr
@@ -504,7 +492,7 @@
       .row(titulo="Peligros biomecánicos")
         .col-lg-8
           p Involucra todas aquellas situaciones que tienen que ver con la adecuación del lugar o elementos de trabajo a la fisonomía humana.  
-          p Representan factor de peligro los objetos, puesto de trabajo, maquinas, equipos y herramientas cuyo peso, tamaño, forma y diseño puedan provocar sobre esfuerzos, así como posturas y movimientos inadecuados que traen como consecuencia fatiga y lesiones osteomusculares. 
+          p Representan factor de peligro los objetos, puesto de trabajo, máquinas, equipos y herramientas cuyo peso, tamaño, forma y diseño puedan provocar sobre esfuerzos, así como posturas y movimientos inadecuados que traen como consecuencia fatiga y lesiones osteomusculares. 
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-28.svg')
@@ -514,7 +502,6 @@
         .col-lg-4
           figure
             img.img-315(src='@/assets/curso/temas/tema2/img-29.svg')
-   
 
 
 
@@ -545,4 +532,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.acordion__activo
+  background-color: #f0fcd4
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido
+</style>

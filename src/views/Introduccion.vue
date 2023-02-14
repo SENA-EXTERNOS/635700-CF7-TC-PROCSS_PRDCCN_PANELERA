@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.mb-5 
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.bl-izq 
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.bl-izq
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/img-intro.png')})`}"
           )
@@ -19,7 +19,7 @@
               br
               br
               |Adquiera más y mejores conocimientos que podrá aplicar en diferentes campos como el sector académico, productivo e investigativo.
-
+    p.mb-5(data-aos='fade-right') En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
     
     figure.mb-5
       .video
