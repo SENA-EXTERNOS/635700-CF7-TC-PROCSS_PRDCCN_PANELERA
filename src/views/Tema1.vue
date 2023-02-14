@@ -85,14 +85,14 @@
               img(src='@/assets/curso/temas/tema1/c6.png') 
         .row(titulo="Paso 2").px-5
           .col-md-6.mb-4.mb-md-0
-            h4 Tiempo de moldeo
+            h4 Tiempo del moldeo
             p Este evento debe llevarse a cabo en un tiempo récord, bajando al máximo la manipulación del producto, debido al cambio de densidad de las melazas al reducir la temperatura. Al trascurrir un determinado tiempo, se pasa al desmolde con el objetivo de que termine el proceso de enfriamiento fuera de la gavera, para evitar resquebrajamientos o fisuras al momento de realizar dicho proceso. Al finalizar el batido, la panela toma el color, la textura, la densidad y la dureza requerida.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/c7.svg') 
         .row(titulo="Paso 3").px-5
           .col-md-6.mb-4.mb-md-0
-            h4 Tiempo del moldeo
+            h4 Enfriamiento 
             p Al terminar el proceso de moldeo se da paso al enfriamiento con el fin de llevar el comestible a la temperatura ambiente, debe hacerse en lugares con buena ventilación garantizando una buena higiene y salubridad para el producto terminado. 
           .col-md-6
             figure
