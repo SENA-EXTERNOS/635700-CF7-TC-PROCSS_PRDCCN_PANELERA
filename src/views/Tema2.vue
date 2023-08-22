@@ -40,9 +40,9 @@
           .tarjeta.color-secundario.p-5.fnd-4(x="58.3%" y="8%" numero="4")
             p.text-center Especificar la cantidad: una libra, un kilo, etc. 
           .tarjeta.color-secundario.p-5.fnd-4(x="76%" y="92%" numero="5")
-            p.text-center El empaque debe llevar la siguiente información: nombre completo del producto, ingredientes, marca o logo comercial, datos y ubicación del trapiche, número de lote o fecha de producción, condiciones de conservación y declaración del contenido neto.  
-          .tarjeta.color-secundario.p-5.fnd-4(x="92.9%" y="8%" numero="6")
             p.text-center Si el producto es destinado para exportación, el rotulo debe ajustarse a las exigencias del país que lo compra.  
+          .tarjeta.color-secundario.p-5.fnd-4(x="92.9%" y="8%" numero="6")
+            p.text-center El empaque debe llevar la siguiente información: nombre completo del producto, ingredientes, marca o logo comercial, datos y ubicación del trapiche, número de lote o fecha de producción, condiciones de conservación y declaración del contenido neto.   
 
     br
     br
@@ -67,33 +67,23 @@
       li
         i.fas.fa-leaf(style="color: #e2872c")
         h4 Riesgos biológicos, químicos y físicos, de contaminación
-    p Algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero, son:  
+    p.mb-5 Algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero, son:  
 
     SlyderF.mb-5.row(columnas="col-lg-6 col-xl-4").slyder-100
-      .tarjeta.fnd-51.tarjeta-avatar1
-        .row.justify-content-center.mb-3
-          .col-8
-            img.img-150.img-t(src='@/assets/curso/temas/tema2/img-4.svg' alt='AvatarTop')
+      .tarjeta.p-4.fnd-51.h-100
+        img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-4.svg' alt='')
         p.text-center.px-4 Dependiendo de la humedad relativa y la temperatura, dentro de los productos biológicos se pueden presentar reacciones químicas metabólicas donde aparece la degradación enzimática o microbiológica, por lo general este tipo de transformaciones son efectuadas en los sitios de almacenamiento de la panela, gracias a las condiciones ambientales del lugar que contiene el producto.  
-      .tarjeta.p-4.fnd-51.tarjeta-avatar1
-        .row.justify-content-center.mb-3
-          .col-8
-            img.img-150.img-t(src='@/assets/curso/temas/tema2/img-5.svg' alt='AvatarTop')
+      .tarjeta.p-4.fnd-51.h-100
+        img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-5.svg' alt='')
         p.text-center.px-4 Cabe resaltar que si la panela como producto final contiene entre un 7 % y 10% de humedad, se hará necesario transportarla, distribuirla y consumirla con rapidez, puesto que si se prolonga en el tiempo de almacenamiento la calidad se verá afectada por el deterioro. 
-      .tarjeta.p-3.fnd-51.tarjeta-avatar1
-        .row.justify-content-center.mb-3
-          .col-8
-            img.img-150.img-t(src='@/assets/curso/temas/tema2/img-6.svg' alt='AvatarTop')
+      .tarjeta.p-3.fnd-51.h-100
+        img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-6.svg' alt='')
         p.text-center.px-4 Si la humedad relativa supera el 10%, las características del producto pueden cambiar, presentando en la superficie gotas brillantes de melaza; por eso, la recomendación es de no almacenar ya que puede presentar un alto riesgo de invasión microbiológica y alteraciones fisicoquímicas en el producto.  	
-      .tarjeta.p-4.fnd-51.tarjeta-avatar1
-        .row.justify-content-center.mb-3
-          .col-8
-            img.img-150.img-t(src='@/assets/curso/temas/tema2/img-7.svg' alt='AvatarTop')
+      .tarjeta.p-4.fnd-51.h-100
+        img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-7.svg' alt='')
         p.text-center.px-4 También se recomienda mantener el alimento alejado de las plagas.  	
-      .tarjeta.p-4.fnd-51.tarjeta-avatar1
-        .row.justify-content-center.mb-3
-          .col-8
-            img.img-150.img-t(src='@/assets/curso/temas/tema2/img-8.svg' alt='AvatarTop')
+      .tarjeta.p-4.fnd-51.h-100
+        img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-8.svg' alt='')
         p.text-center.px-4 Es de acotar que la humedad no sólo afecta este artículo, dado que cuando la panela tiene azucares reductores en alta densidad y contenidos mínimos de sacarosa también puede presentar alteraciones. 	
 
     ul.lista-ul--color
@@ -203,7 +193,7 @@
                 li 
                   .lista-ol--cuadro__vineta.mor
                     span b
-                  | Medidas mitigables que modifican los efectos de la enfermedad evitando complicaciones (secuelas, discapacidad, incapacidad y muerte) costos para el SGSSS, el paciente y su familia; posibles eventos adversos derivados de la atención médica, afectación de la imagen pública y probales sanciones legales, (Gómez, 2006), 
+                  | Medidas mitigables que modifican los efectos de la enfermedad evitando complicaciones (secuelas, discapacidad, incapacidad y muerte) costos para el SGSSS, el paciente y su familia; posibles eventos adversos derivados de la atención médica, afectación de la imagen pública y probables sanciones legales, (Gómez, 2006), 
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema2/img-17.png')
