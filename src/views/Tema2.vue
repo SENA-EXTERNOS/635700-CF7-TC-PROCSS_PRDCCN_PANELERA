@@ -46,10 +46,11 @@
 
     br
     br
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4 Manejo de plagas
+    #t_2_1    
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4 Manejo de plagas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -63,10 +64,13 @@
       .col-lg-10
         .cajon.color-acento-botones.fnd-6.p-4.mb-4
           p La panela es considerada como un endulzante artesanal, proveniente de la caña de azúcar (Saccharum ofcinarum), este es transformado en trapiches como una actividad económica, la cual debe tener el cumplimiento de los requisitos sanitarios para la elaboración y el cumplimento de acuerdo con las condiciones que exigen en materia de infraestructura (las instalaciones, áreas de procesos y sanitarias). Esto es cobijado ante resoluciones del Ministerio de la Protección Social como la ley 4121 del 2011 “requisitos para la producción y comercialización de la panela en el territorio nacional”, (Gallego, 2020). 
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4 Riesgos biológicos, químicos y físicos, de contaminación
+    
+ 
+    #t_2_2
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4 Riesgos biológicos, químicos y físicos, de contaminación
     p.mb-5 Algunos riesgos biológicos, químicos y físicos que pueden dañar el producto panelero, son:  
 
     SlyderF.mb-5.row(columnas="col-lg-6 col-xl-4").slyder-100
@@ -85,11 +89,12 @@
       .tarjeta.p-4.fnd-51.h-100
         img.img-t.img-a.mb-4(src='@/assets/curso/temas/tema2/img-8.svg' alt='')
         p.text-center.px-4 Es de acotar que la humedad no sólo afecta este artículo, dado que cuando la panela tiene azucares reductores en alta densidad y contenidos mínimos de sacarosa también puede presentar alteraciones. 	
-
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4  Agua en los procesos paneleros
+    
+    #t_2_3
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4  Agua en los procesos paneleros
 
     .row.justify-content-center.mb-5 
         .col-lg-10
@@ -110,7 +115,7 @@
           .row(titulo="Evacuación de desechos por agua")
             p Para este aspecto se debe tener presente el mandato técnico para la producción, dado que en la mayoría de las veces se convierte en una dificultad para la sociedad, ya que afecta no solo al gremio, sino también a la comunidad en general, pues no se evacua correctamente los desechos ocasionados por el uso del agua en los trapiches. 
           .row(titulo="Higienización de ambientes y equipos")
-            p Todo esto converge en la utilización recurso hídrico, cabe resaltar que para los procesos paneleros se requiere agua potable y en cantidades abundantes, al igual que para el lavado constante de los equipos, entre otras etapas de fabricación.  
+            p Todo esto converge en la utilización del recurso hídrico, cabe resaltar que para los procesos paneleros se requiere agua potable y en cantidades abundantes, al igual que para el lavado constante de los equipos, entre otras etapas de fabricación.  
           .row(titulo="Riegos e hidratación de cultivos")
             p No se puede descuidar la eliminación de los residuos que se generan al momento de la elaboración, pues la mayoría de los sedimentos terminan en las quebradas, charcos o lagos cercanos, desconociendo que se requiere para hidratar los cultivos de caña durante el tiempo de siembra y riego constante en la cosecha. 
           .row(titulo="Pérdida de afluentes naturales y deterioro de ecosistemas")
@@ -137,11 +142,11 @@
                     span Enlace
                     i.fas.fa-link    
 
-
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4  Normativa de salud y seguridad en el trabajo
+    #t_2_4
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4  Normativa de salud y seguridad en el trabajo
     p.mb-5(data-aos='fade-right') El sector de producción de panela, como cualquier otro sector productivo, debe establecer acciones que aseguren la gestión de la salud y la seguridad en el trabajo. Como es de suponer, es la normativa vigente la que regula y orienta tales procesos y ofrece mecanismos de aplicación.
       br
       br
@@ -161,7 +166,7 @@
             .col-md-8.mb-4.mb-md-0.px-5
               h3 Prevención de riesgos laborales en el trapiche panelero
               p Los trapiches paneleros son empresas que brindan opción de trabajo a las familias colombianas, estas ofertas van desde la siembra y cosecha de la caña de azúcar, hasta la producción de la panela, todo esto es gracias al proceso de transformación del jugo de la caña en derivados, que constituyen alimentos básicos para los hogares y también para mover la economía de la región y del país. Las actividades que conducen a la fabricación de tal comestible, conllevan situaciones de riesgo para la salud humana y la integridad física, dado a la exposición  a herramientas cortopunzantes, animales, fuego, elevadas temperaturas, vapores, entre otros factores para que las personas realicen las labores de forma adecuada; por ello es necesario que cada uno cuente con las condiciones necesarias para preservar la salud e integridad mientras trabajan, porque sin salud no hay trabajo, sin trabajo no hay producción y sin producción no hay ingresos (Cundinamarca, 2016).  
-              p Por tal razón, es de obligatorio que los encargados de los trapiches tomen conciencia de ofrecer las condiciones mínimas, para la amparar la seguridad, la salud y la vida, custodiando que se apliquen las medidas y recomendaciones para lograrlo y así evitar enfermedades y accidentes, garantizando la producción, el bienestar de los productores, trabajadores y las familias. 
+              p Por tal razón, es obligatorio que los encargados de los trapiches tomen conciencia de ofrecer las condiciones mínimas, para amparar la seguridad, la salud y la vida, custodiando que se apliquen las medidas y recomendaciones para lograrlo y así evitar enfermedades y accidentes, garantizando la producción, el bienestar de los productores, trabajadores y las familias. 
               p Dentro de los conceptos para tener en cuenta están: 
             .col-md-4
               figure
@@ -169,7 +174,7 @@
           .row
             .col-md-8.mb-4.mb-md-0.px-5
               h3 Salud laboral u ocupacional 
-              p Hace referencia al bienestar del empleado, además busca protegerlo de posibles accidentes durante la ejecución de las labores cotidianas. Las tácticas se encaminan en propagar el trabajo seguro y sano para, contando con ambientes óptimos y un excelente lugar de convivencia, donde prevalezca la tranquilidad física, mental y social de los trabajadores, lo que se traduce en mejor desempeño y satisfacción, respaldando el perfeccionamiento y el mantenimiento de las capacidades de las personas. 
+              p Hace referencia al bienestar del empleado, además busca protegerlo de posibles accidentes durante la ejecución de las labores cotidianas. Las tácticas se encaminan en propagar el trabajo seguro y sano, contando con ambientes óptimos y un excelente lugar de convivencia, donde prevalezca la tranquilidad física, mental y social de los trabajadores, lo que se traduce en mejor desempeño y satisfacción, respaldando el perfeccionamiento y el mantenimiento de las capacidades de las personas. 
               p Dentro de los objetivos de la salud ocupacional, también se menciona el derecho al sano esparcimiento de los trabajadores, donde la economía y el tiempo en familia contribuyan al desarrollo sostenible y personal y de esta manera promover el enriquecimiento humano y profesional, (R. Franco et al., 2007) (Lizarazo et al., 2011). 
             .col-md-4
               figure
@@ -193,7 +198,7 @@
                 li 
                   .lista-ol--cuadro__vineta.mor
                     span b
-                  | Medidas mitigables que modifican los efectos de la enfermedad evitando complicaciones (secuelas, discapacidad, incapacidad y muerte) costos para el SGSSS, el paciente y su familia; posibles eventos adversos derivados de la atención médica, afectación de la imagen pública y probables sanciones legales, (Gómez, 2006), 
+                  | Medidas mitigables que modifican los efectos de la enfermedad evitando complicaciones (secuelas, discapacidad, incapacidad y muerte) costos para el SGSSS, el paciente y su familia; posibles eventos adversos derivados de la atención médica, afectación de la imagen pública y probables sanciones legales, (Gómez, 2006).
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema2/img-17.png')
@@ -220,10 +225,11 @@
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema2/img-20.png')
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4 Riesgos laborales 
+    #t_2_5
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4 Riesgos laborales 
     .row.justify-content-center.mb-5
       .col-lg-2: img(src='@/assets/curso/temas/tema2/c2.svg', alt='')
       .col-lg-10 

@@ -70,14 +70,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Riesgos de contaminación de los productos (biológica, química y física)',
+            titulo: 'Riesgos biológicos, químicos y físicos, de contaminación',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Agua',
+            titulo: 'Agua en los procesos paneleros',
             hash: 't_2_3',
           },
           {
@@ -85,6 +84,12 @@ export default {
             numero: '2.4',
             titulo: 'Normativa de salud y seguridad en el trabajo',
             hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Riesgos laborales',
+            hash: 't_2_5',
           },
         ],
       },

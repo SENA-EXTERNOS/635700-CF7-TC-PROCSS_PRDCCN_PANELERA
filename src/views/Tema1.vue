@@ -25,10 +25,10 @@
           .row
             .col-md-6.mb-4.mb-md-0.px-5
               h4 Obtención
-              p La panela es el producto que se obtiene de la extracción del jugo de la caña de azúcar, luego de la limpieza y evaporación del agua que contiene; se ha convertido en un alimento básico, especialmente para la población rural, mientras en las ciudades capitales entra a competir con endulzantes sintéticos y bebidas artificiales debido a los factores socioeconómicos, es importante destacar que la panela fácilmente puede sustituir el azúcar refinado dado que contiene alto altos niveles de sustancias que son necesarias para el metabolismo como las vitaminas y minerales, esto gracias al proceso de elaboración que se hace de manera natural, lo que evita la pérdida de los nutrientes propios de la materia prima, (Comercio, 2012).  
+              p La panela es el producto que se obtiene de la extracción del jugo de la caña de azúcar, luego de la limpieza y evaporación del agua que contiene; se ha convertido en un alimento básico, especialmente para la población rural, mientras en las ciudades capitales entra a competir con endulzantes sintéticos y bebidas artificiales debido a los factores socioeconómicos, es importante destacar que la panela fácilmente puede sustituir el azúcar refinado dado que contiene altos niveles de sustancias que son necesarias para el metabolismo como las vitaminas y minerales, esto gracias al proceso de elaboración que se hace de manera natural, lo que evita la pérdida de los nutrientes propios de la materia prima, (Comercio, 2012).  
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/c1.svg')
+                img(src='@/assets/curso/temas/tema1/c1-.svg')
           .row
             .col-md-6.mb-4.mb-md-0.px-5
               h4 Particularidades de la producción de panela
@@ -49,24 +49,25 @@
               p El batido es una etapa fundamental e importante, dado que es determinante para fijar el color, la consistencia y la textura del alimento, por ello se hace sumamente relevante y rigurosa. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/c4.svg') 
+                img(src='@/assets/curso/temas/tema1/c4-.svg') 
           .row
             .col-md-6.mb-4.mb-md-0.px-5
               h4 Higienización y cuidados generales
-              p Los utensilios e implementos de la elaboración panelera deben ser limpiados constantemente, con un espacio de tiempo mínimo de 4 horas con agua limpia y potable, se recomienda adicionar cal al líquido con el cual se hará la limpieza para evitar la fermentación de los azúcares, disminuir los residuos orgánicos, es necesario llevar a cabo la fase en mención para mantener la vida útil y prolongada de los utensilios. Lo mismo debe ocurrir durante el batido y moldeado para así evitar contaminación cruzada y libre animales, especialmente los insectos, (Andrés et al., 2013).
+              p Los utensilios e implementos de la elaboración panelera deben ser limpiados constantemente, con un espacio de tiempo mínimo de 4 horas con agua limpia y potable, se recomienda adicionar cal al líquido con el cual se hará la limpieza para evitar la fermentación de los azúcares, disminuir los residuos orgánicos. Es necesario llevar a cabo la fase en mención para mantener la vida útil y prolongada de los utensilios. Lo mismo debe ocurrir durante el batido y moldeado para así evitar contaminación cruzada y libre de animales, especialmente los insectos, (Andrés et al., 2013).
             .col-md-6
 
               figure
                 img(src='@/assets/curso/temas/tema1/c5.png') 
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4 Panela como producto final
+    #t_1_1      
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4 Panela como producto final
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-8
         p.mb-5 La panela es el producto final que se logra después de una serie de pasos donde se transforma el zumo de la caña de azúcar, hasta convertirlo en ese rico y nutritivo alimento de formas definidas en color, textura y dureza, que se determinan por las diversas etapas del proceso. Es considerado como un producto natural de alta pureza, libre de desechos, sustancias químicas o aditivos y microorganismos como hongos y levadura. También es reconocida por ser una fuente alta de energía pues su principal ingrediente es extraído de la caña de azúcar; es de acotar que la sacarosa es una sustancia que el organismo metaboliza fácilmente para llevar a cabo los procesos vitales; dentro de su constitución, también se encuentran vitaminas y minerales, (Amanda & Marcillo, 2002).
         .cajon.color-acento-contenido.p-4.mb-4.fnd-2 
-          p Las técnicas de producción pueden ser consideradas como arte debido a la transformación habitual; sin embargo, cumple con los requerimientos tradicionales de las familias rurales y las necesidades alimentarias por el elevado consumo por habitante, ya que en promedio de 23 kg de panela se gasta al año una sola persona. dentro de la fabricación participan individuos con algún grado de consanguinidad, en la mayoría de los casos de origen campesino que son quienes brindan la mano de obra, procesamiento y consumo, (Franco D, 2011).
+          p Las técnicas de producción pueden ser consideradas como arte debido a la transformación habitual; sin embargo, cumple con los requerimientos tradicionales de las familias rurales y las necesidades alimentarias por el elevado consumo por habitante, ya que una sola persona en promedio se gasta 23 kg de panela al año. Dentro de la fabricación participan individuos con algún grado de consanguinidad, en la mayoría de los casos de origen campesino que son quienes brindan la mano de obra, procesamiento y consumo, (Franco D, 2011).
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img-7.png') 
@@ -79,7 +80,7 @@
         .row(titulo="Paso 1").px-5
           .col-md-6.mb-4.mb-md-0
             h4 Moldeo
-            p Durante esta etapa se determina la forma del alimento para ello se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
+            p Durante esta etapa se determina la forma del alimento, para ello, se requiere el uso de instrumentos de madera llamadas gaveras o moldes individuales, con formas diferentes que van desde rectangular, cuadrada, pre-partida o semiesférica, al igual varían los tamaños dentro de los cuales se introducen las mieles. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/c6.png') 
@@ -112,11 +113,12 @@
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=yi866Z1roq8 ')" target="_blank")
                     span Enlace
-                    i.fas.fa-link       
-    ul.lista-ul--color
-      li
-        i.fas.fa-leaf(style="color: #e2872c")
-        h4 Conservación
+                    i.fas.fa-link     
+    #t_1_2                      
+      ul.lista-ul--color
+        li
+          i.fas.fa-leaf(style="color: #e2872c")
+          h4 Conservación
     p.mb-5 Como cualquier producto para el consumo humano, la panela requiere procesos y mecanismos de conservación. Eso implica pensar, además de su elaboración, en su empaque, almacenamiento y distribución.
       br
       br
@@ -156,13 +158,13 @@
             figure.mb-4
               img(src='@/assets/curso/temas/tema1/img-14.png')
           .col-md-8
-            p La exportación tiene más trabajo en cuanto a la parte de empacado, esta debe ser envasada en bolsas especiales. Dado que la panela es envuelta en bolsas especiales de poliolefina, las cuales tienen una característica de adaptarse a la estructura de dicho alimento, además de brindar brillo y resaltar las características, además de ser económica, protege contra la humedad y el polvo después de ser aseguradas por la acción de la máquina selladora. 
+            p La exportación tiene más trabajo en cuanto a la parte de empacado, esta debe ser envasada en bolsas especiales. Dado que la panela es envuelta en bolsas especiales de poliolefina, las cuales tienen una característica de adaptarse a la estructura de dicho alimento, además de brindar brillo, resaltar las características, y de ser económica, también protege contra la humedad y el polvo después de ser aseguradas por la acción de la máquina selladora. 
         .row(titulo="Paso 2")
           .col-md-4.mb-4.mb-md-0
             figure.mb-4
               img(src='@/assets/curso/temas/tema1/img-15.png')
           .col-md-8
-            p Una vez asegurado el producto en las bolsas, son transportas y puestas en el túnel de termo encogido donde por acción del calor el empaque se contrae o mejor se adhiere y toma la forma del artículo, de esta manera se puede ajustar ya sea cuadrada, redonda, pulverizada, entre otros. 
+            p Una vez asegurado el producto en las bolsas, son transportadas y puestas en el túnel de termoencogido donde por acción del calor el empaque se contrae o se adhiere mejor y toma la forma del artículo, de esta manera se puede ajustar ya sea cuadrada, redonda, pulverizada, entre otros. 
         .row(titulo="Paso 3")
           .col-md-4.mb-4.mb-md-0
             figure.mb-4
